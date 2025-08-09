@@ -1,7 +1,5 @@
 from pathlib import Path
 
-from scipy.signal import spectrogram
-
 
 def get_base_dir():
     """Return the project root by locating the top-level directory containing 'src'."""
