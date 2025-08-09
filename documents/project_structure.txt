@@ -5,14 +5,10 @@ MediCluster/
 │
 ├── data/
 │   ├── raw/
-│   │   └──
+│   │   └── patient_dataset.csv
 │   │
-│   ├── processed/
-│   │   └──
-│   │
-│   └──curated/
-│       ├── test.csv
-│       └── train.csv
+│   └── processed/
+│       └── processed_patients_dataset.csv
 │
 ├── notebooks/
 │   ├── 00_init.ipynb
