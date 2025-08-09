@@ -23,8 +23,8 @@ MediCluster/
 ├── src/                                    # Python scripts for modular implementation
 │   ├── __init__.py
 │   ├── __00__paths.py
-│   ├──
-│   └──
+│   ├── 01_data_setup.ipynb
+│   └── 02_MediCluster_Modeling.ipynb
 │
 ├── outputs/                             # Python scripts for modular implementation
 │   ├── model/
