@@ -3,7 +3,7 @@
 > Patient Dataset Clustering Using K-Means and PCA
 
 <p align='center'>
-   <img width="500" alt="medicluster_poster" src="" />
+   <img width="500" alt="medicluster_poster" src="https://github.com/user-attachments/assets/bd1b9599-6aa1-4bc4-8483-9645eb71598c" />
 </p>
 
 ---
@@ -62,18 +62,17 @@ We used the [Patient Dataset for Clustering](https://www.kaggle.com/datasets/arj
 
 ### Documents (saved under `outputs/docs/`)
 
-**`kmeans_metrics.txt`**
 
-```
-Best k: 4
-Cluster counts:
-0    1525
-1    1467
-2    1522
-3    1486
-Calinski–Harabasz: 602.07, Davies–Bouldin: 2.68
-KMeans stability (ARI): 1.000
-```
+| Metric                      | Value  |
+| --------------------------- | ------ |
+| **Best k**                  | 4      |
+| **Cluster 0 size**          | 1,525  |
+| **Cluster 1 size**          | 1,467  |
+| **Cluster 2 size**          | 1,522  |
+| **Cluster 3 size**          | 1,486  |
+| **Calinski–Harabasz Score** | 602.07 |
+| **Davies–Bouldin Score**    | 2.68   |
+| **KMeans Stability (ARI)**  | 1.000  |
 
 **`clustered_patients_dataset_original_units.csv`** — same as clean dataset plus `cluster` column (0–3).
 
@@ -165,3 +164,7 @@ Part of the **MediCluster Series**, applying unsupervised learning to patient se
   </tr>
 </table>
 </div>
+
+
+
+
