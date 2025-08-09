@@ -1,0 +1,16 @@
+# Dataset access from Kaggle
+kagglehub==0.3.12
+
+# Core numerical and data analysis libraries
+numpy==1.26.4
+pandas==2.3.0
+scipy==1.16.0
+
+# Machine learning & data preprocessing
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+joblib==1.4.2  # Model persistence and parallel processing
+
+# Visualization
+matplotlib==3.10.3
+seaborn==0.13.2
