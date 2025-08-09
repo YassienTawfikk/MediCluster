@@ -8,13 +8,13 @@ MediCluster/
 │   │   └── patient_dataset.csv
 │   │
 │   └── processed/
+│       ├── clean_preScaled_data.csv
 │       └── processed_patients_dataset.csv
 │
 ├── notebooks/
 │   ├── 00_init.ipynb
 │   ├── 01_data_setup.ipynb
-│   ├──
-│   └──
+│   └── 02_MediCluster_modeling.ipynb
 │
 ├── src/                                    # Python scripts for modular implementation
 │   ├── __init__.py
@@ -24,16 +24,15 @@ MediCluster/
 │
 ├── outputs/                             # Python scripts for modular implementation
 │   ├── model/
-│   │   ├──
-│   │   └──
+│   │   └── medicluster_kmeans_pipeline.joblib
 │   │
 │   ├── figures/
-│   │   ├──
-│   │   └──
+│   │   ├── kmeans_elbow.png
+│   │   └── kmeans_pca2d.png
 │   │
 │   └── docs/
-│       ├──
-│       └──
+│       ├── clustered_patients_dataset_original_units.csv
+│       └── kmeans_metrics.txt
 │
 ├── main.py                          # Fast running for the Model Creation
 ├── README.md                        # Full description, instructions, results
