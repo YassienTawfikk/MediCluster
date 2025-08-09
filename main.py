@@ -10,9 +10,6 @@ from src.__02__MediCluster_modeling import train
 def main():
     # Create needed directories
     print("Creating needed directories...")
-    for p in data_dir_list + output_dir_list:
-        p.mkdir(parents=True, exist_ok=True)
-    print("✔️ Directories ready.")
 
     # Download
     print("Downloading dataset...")
