@@ -1,14 +1,14 @@
-PredictiLoan/
+MediCluster/
 │
 ├── documents/
 │   └── project_structure.txt
 │
 ├── data/
 │   ├── raw/
-│   │   └── loan_approval_dataset.csv
+│   │   └──
 │   │
 │   ├── processed/
-│   │   └── processed_data.csv
+│   │   └──
 │   │
 │   └──curated/
 │       ├── test.csv
@@ -17,31 +17,27 @@ PredictiLoan/
 ├── notebooks/
 │   ├── 00_init.ipynb
 │   ├── 01_data_setup.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_model_evaluation.ipynb
+│   ├──
+│   └──
 │
 ├── src/                                    # Python scripts for modular implementation
 │   ├── __init__.py
 │   ├── __00__paths.py
-│   ├── __01__data_preprocessing.py
-│   └── __02__model_creating.py
+│   ├──
+│   └──
 │
 ├── outputs/                             # Python scripts for modular implementation
 │   ├── model/
-│   │   ├── LogisticRegression_model.joblib
-│   │   └── SVM_model.joblib
+│   │   ├──
+│   │   └──
 │   │
 │   ├── figures/
-│   │   ├── Logistic_Regression_confusion_matrix.png
-│   │   ├── Logistic_Regression_precision_recall_curve.png
-│   │   ├── Logistic_Regression_roc_curve.png
-│   │   ├── SVM_confusion_matrix.png
-│   │   ├── SVM_precision_recall_curve.png
-│   │   └──S VM_roc_curve.png
+│   │   ├──
+│   │   └──
 │   │
 │   └── docs/
-│       ├── LogisticRegression_model.joblib
-│       └── SVM_model.joblib
+│       ├──
+│       └──
 │
 ├── main.py                          # Fast running for the Model Creation
 ├── README.md                        # Full description, instructions, results
